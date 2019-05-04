@@ -1,0 +1,15 @@
+<ion-view view-title="Categorias">
+  <ion-content class="padding">
+    <h1 class="text-center">CATEGORIAS</h1>
+    <!--Mostrar Categorias-->
+    <div class="row">
+      <div class="col col-50 Cprincipal" ng-repeat="n in categories">
+        <div class="col cgoria">
+          {{n.nombre}}
+          <i class="{{n.icon}}"></i>
+        </div>
+      </div>
+    </div>
+
+  </ion-content>
+</ion-view> 
