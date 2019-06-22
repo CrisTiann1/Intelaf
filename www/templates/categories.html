@@ -1,6 +1,8 @@
 <ion-view view-title="Categorias">
-  <ion-content class="padding">
-    <h1 class="text-center">CATEGORIAS</h1>
+  <ion-content>
+    <div class="tit">
+      <h1 class="text-center titulo">CATEGORIAS</h1>
+    </div>
     <!--Mostrar Categorias-->
     <div class="row">
       <div class="col col-50 Cprincipal" ng-repeat="n in categories">
@@ -9,6 +11,12 @@
           <i class="{{n.icon}}"></i>
         </div>
       </div>
+    </div>
+    <hr>
+    <!--Informacion intelaf-->
+    <div class="cal text-center">
+      <img class="image" src="../img/empresa.png" style="width: 150px">
+      <h3 class="text">Empresa</h3>
     </div>
 
   </ion-content>
